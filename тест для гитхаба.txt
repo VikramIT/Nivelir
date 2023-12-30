@@ -1,0 +1,67 @@
+команды консоли по гиту
+
+
+1) git init  создаем репозриторий в папке ск оторой стартанули гит 
+
+2) echo >> README.md --сздать файл ридми
+
+Первичная настройка 
+
+
+Имя пользователя +почта (можно глобально-можно локально)
+
+1)git config --local (global) user.name "Valera"
+2)1)git config --local (global) user.e0mail "Valera@yandex.ru"
+
+все
+
+
+дальше -есть 3 состояния 
+1)когда файл просто находится на нашем проекте -не связан с гитом 
+добавляем на гит
+git add -A(добавить все фалы ,можно расширения -*html или -"название файла ")   
+2)когда наш гит следит за изменением файлы
+3)Запоммни изменения что есть мы если тчо вернемся
+Пеереводим со второго состояния на 3.
+git commit -a -m "это коммит"
+
+git log -отследить все изменения 
+
+
+clear -удалить все 
+
+Связать гит и сайт .
+
+посмотреть состояние нашег репозитория - git status
+Хронологий действий-
+
+1) git status
+2) git add -A
+3)git commit -a -m "Commit"
+4)git push -u origin main
+
+
+
+
+что происходит дальше 
+
+…or create a new repository on the command line
+echo "# Nivelir" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VikramIT/Nivelir.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/VikramIT/Nivelir.git
+git branch -M main
+git push -u origin main
+
+
+
+Идем дальше 
+
+если у нас  2 компа.
+
+
