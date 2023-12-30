@@ -35,7 +35,7 @@ appData.expenses[a3]=a4;
 
 let freeBuget = (Number(appData.expenses[a1]))+(Number(appData.expenses[a3]));
 let freeBuget2 = ((+appData.expenses[a1])+ (+appData.expenses[a3]));
-alert(Math.floor(appData.budget-freeBuget2)/30+" Ваш ежедневный возможный бюджет");
+alert(Math.floor((appData.budget-freeBuget2)/30) +" Ваш ежедневный возможный бюджет");
 
 
 
